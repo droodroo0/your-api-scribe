@@ -47,7 +47,7 @@ export function ChatHeader({
                 <User className="h-4 w-4 mr-2" />
                 Profile
               </DropdownMenuItem>
-              <DropdownMenuItem onClick={onSettings}>
+              <DropdownMenuItem onClick={() => window.location.href = '/settings'}>
                 <Settings className="h-4 w-4 mr-2" />
                 Settings
               </DropdownMenuItem>
